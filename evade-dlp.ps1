@@ -4,5 +4,5 @@ function evade-dlp {$a=""; [char[]](cat $args[0] -Encoding utf8) | %{$a += [char
 
 #Usage
 #evade-dlp data.txt > encoded.txt
-#send data to remote server
+#send encoded file to remote server
 #evade-dlp encoded.txt > data.txt
